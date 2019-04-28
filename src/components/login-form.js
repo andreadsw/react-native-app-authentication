@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 
 class LoginForm extends Component {
   componentDidMount() {
-    //Firebase API configuration
+    // Adding here your Firebase API configuration.
     const config = {
         apiKey: "",
         authDomain: "",
