@@ -11,12 +11,12 @@ class LoginForm extends Component {
   componentDidMount() {
     // Adding here your Firebase API configuration.
     const config = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        projectId: "app-react-native-auth",
-        storageBucket: "app-react-native-auth.appspot.com",
-        messagingSenderId: ""
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: ""
     };
     firebase.initializeApp(config);
   }
